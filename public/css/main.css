@@ -1,0 +1,76 @@
+/* Custom CSS */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif !important;
+}
+
+h3 {
+    font-weight: 400 !important;
+}
+
+.btn-wishlist {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.btn-wishlist i {
+    font-size: 18px;
+}
+
+.btn-primary {
+    background-color: rgba(13, 110, 253, 0.3) !important;
+    border-style: none !important;
+    color: rgba(13, 110, 253, 1) !important;
+    font-weight: 500 !important;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 13px !important;
+}
+
+.btn-success {
+    background-color: rgba(25, 135, 84, 0.3) !important;
+    border-style: none !important;
+    color: rgba(25, 135, 84, 1) !important;
+    font-weight: 500 !important;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 13px !important;
+    letter-spacing: 1px;
+}
+
+.card-img-top {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.btn-warning {
+    background-color: rgba(255, 193, 7, 0.3) !important;
+    border-style: none !important;
+    color: rgb(255, 193, 7) !important;
+    font-weight: 500 !important;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 13px !important;
+}
